@@ -1,12 +1,19 @@
 # LocalDataForXam
 
-Author: Charles Tatum II
+Author: 
 
-Version: 1.0.0
+Charles Tatum II
+
+
+Version: 
+
+1.0.0
+
 
 Summary:
 
 XML-based local storage for Xamarin.
+
 
 Description:
 
