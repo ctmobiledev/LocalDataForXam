@@ -58,11 +58,13 @@ There really isn't that much to using LocalDataForXam. Here are the basic steps 
 
 1. Copy the ILocalDataForXam into the common part of the Xamarin.Forms project. This is usually at the very top of the Visual Studio solution in the explorer at screen right.
 
-2. Copy LocalDataForXam_Android into the ".Android" solution in the Visual Studio project.
+2. Copy LocalDataForXam_Android.cs into the ".Android" solution in the Visual Studio project.
 
-3. Copy LocalDataForXam_iOS into the ".iOS" solution in the Visual Studio project.
+3. Copy LocalDataForXam_iOS.cs into the ".iOS" solution in the Visual Studio project.
 
-4. Copy LocalDataForXam_UXP into the ".UXP" solution in the Visual Studio project.
+4. Copy LocalDataForXam_UXP.cs into the ".UXP" solution in the Visual Studio project.  
+
+NOTE: Be sure to make appropriate adjustments to the "using" statements at the top of file for the three namespaces - LocalDataForXam.UWP, LocalDataForXam.iOS and LocalDataForXam.Android. Look at the three "LocalDataForXam[platform-name].cs" files at the top of each file.
 
 5. Wherever use of the three methods - SetData, GetData, RemoveData - is needed, simply include a declaration for the DependencyService that references Interface ILocalDataForXam.  In the MainPage file, for example, this is assigned to an object called "localData".
 
