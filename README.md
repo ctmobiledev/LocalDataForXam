@@ -5,14 +5,17 @@ Author:
 Charles Tatum II
 
 
+
 Version: 
 
 1.0.0
 
 
+
 Summary:
 
 XML-based local storage for Xamarin.
+
 
 
 Description:
@@ -35,6 +38,7 @@ The main methods are as follows:
     overwritten with the new value.
 
     RemoveData(key) - Removes the key-value pair from the localData XML tree.
+
 
 
 **********
