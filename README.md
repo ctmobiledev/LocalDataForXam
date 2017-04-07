@@ -20,9 +20,12 @@ On first use, a new folder "LocalDataForXam" is created, containing an XML file 
 
 The main methods are as follows:
 
-    GetData(key) - Returns the value of a key-value pair as a string.  If the key doesn't exist, return a null string (NOT a null).
+    GetData(key) - Returns the value of a key-value pair as a string.  If the key doesn't exist, 
+    return a null string (NOT a null).
 
-    SetData(key, value) - Inserts a key-value pair as a child node to the localData XML tree.  If the key doesn't exist, a new node is created. If the key does exist, the previous value is overwritten with the new value.
+    SetData(key, value) - Inserts a key-value pair as a child node to the localData XML tree.  
+    If the key doesn't exist, a new node is created. If the key does exist, the previous value is 
+    overwritten with the new value.
 
     RemoveData(key) - Removes the key-value pair from the localData XML tree.
 
